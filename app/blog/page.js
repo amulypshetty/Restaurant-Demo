@@ -1,4 +1,3 @@
-
 export default function Landingpage() {
   return (
     <div>
@@ -70,80 +69,55 @@ export default function Landingpage() {
         </div>
         <div className="relative bg-cover  bg-center h-[650px] items-center mt-0.5 w-full flex flex-col bg-[url('https://img.freepik.com/premium-photo/sushi-nigiri-set-with-black-background-generative-ai_28914-23888.jpg')]">
           <div className="text-white text-6xl font-bold mt-[50px]">
-            About us
-            </div>
-            <div className="flex flex-row">
-          <img className="h-[35px] w-[40px] mt-5"
+           Blog Standard 
+          </div>
+          <div className="flex flex-row">
+          <img className="h-[35px] w-[40px] mt-7"
               src="https://www.qsl.net/7/75misbn/home.jpg" />
-          <div className="text-white text-[20px] mr-5 mt-6">
-            Home -  about us
+          <div className="text-white text-2xl ml-1 mt-8">
+            Home -  blog-standard
           </div>
           </div>
         </div>
       </div>
 
-
-      <div className=" bg-gray-200 h-[400px] [w-2000px] items-center  flex flex-col">
-        <div className="text-amer-200  text-[25px] font-bold text-yellow-900 flex flex-col items-center justify mt-20">OUR TRUSTED 8K HAPPY PARTNER</div>
-        <div className="flex flex-row mt-15">
-          <img className="h-[150px] w-[200px] ml-[50px]"
-            src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fbrand%2F3.png&w=1080&q=75" />
-          <img className="h-[150px] w-[200px] ml-[100px] "
-            src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fbrand%2F4.png&w=1080&q=75" />
-          <img className="h-[150px] w-[200px] ml-[100px] "
-            src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fbrand%2F5.png&w=1080&q=75" />
-          <img className="h-[150px] w-[200px] ml-[100px] "
-            src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fbrand%2F1.png&w=1080&q=75" />
-          <img className="h-[150px] w-[200px] ml-[100px] "
-            src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fbrand%2F2.png&w=1080&q=75" />
-        </div>
-      </div>
 
       
-        <div className=" relative flex flex-row w-full h-[800px] bg-white  mt-20 space-x-10  shadow-2xl shadow-gray-300 p-10">
-            <img className="h-[550px] w-[400px] " src="https://therestaurantzone.com/wp-content/uploads/2024/08/our-specialities%E2%80%8B.jpeg.webp"></img>
-            <img className="h-[550px]  w-[400px]" src="https://www.empalifeusa.com/assets/images/about/about-four2.jpg"></img>
-            <div className="flex flex-col h-[500px] w-[800px] absolute right-20 top-40 bg-white shadow-xl p-10">
-            <div className="text-[25px] text-yellow-800">ABOUT US</div>
-            <div className="text-[50px] font-serif">We Invite You <br/>To Visit Our Restaurant</div>
-            <div className="mt-3 text-[18px] w-[600px]  text-gray-500">A relaxing and pleasant atmosphere, good jazz, dinner, and cocktails. The Patio Time Bar opens in the center of Florence. The only bar inspired by the 1960s, it will give you a experience that you’ll have a hard time forgetting.
-            <div className=" bg-yellow-800 mt-6 h-[60px] w-[200px] text-center text-[20px] font-bold text-white mx-[20px] py-3">Discover More</div>
-</div>
-         </div>
-         </div>
+<div className="flex justify-center mt-30">
+  <div className="max-w-6xl bg-white rounded-lg shadow-lg  shadow-gray-300 overflow-hidden">
+    <img
+      src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fblog%2F1-full.jpg&w=3840&q=75"
+      alt="Restaurant"
+      className="w-full h-[600px] object-cover"
+    />
 
-
-
-          <div className="bg-gray-200 w-full h-[650px] flex flex-col items-center">
-  <div className="text-[25px] text-yellow-800 mt-10">MASTER CHEFS</div>
-  <div className="text-[60px] text-black">Meet Our Special Chefs</div>
-
-  
-  <div className="flex flex-row space-x-20 mt-16">
-    
-    <div className="flex flex-col items-center">
-      <img className="rounded-[200px] w-[300px] h-[300px]"
-        src="https://i.pinimg.com/736x/0f/fb/98/0ffb98fb6d842efa4b496f9f8f51b6ba.jpg"/>
-      <div className="flex flex-col bg-yellow-800 h-[60px] w-[200px] items-center justify-center text-center text-[20px] font-bold text-white mt-1 ">Alexander Petllo
-      <div className="bg-yellow-800 h-[60px] w-[200px] flex items-center justify-center text-center text-[15px]  text-white  ">ASSISTANT CHEF</div>
+    <div className="p-8">
+      <div className="flex items-center text-gray-500 text-sm mb-4 space-x-4">
+        <div className="flex items-center space-x-2">
+          <img className="h-[40px] w-[40px] "
+              src="https://pcuct.org/assets/ql-skip-rev.png" />
+          12 August, 2024</div>
+          <div>
+        </div>
+        <div className="flex items-center space-x-2">
+          <img className="h-[40px] w-[40px] "
+              src="https://th.bing.com/th/id/OIP.3tFDXgeH6msOuZgixMMumQAAAA?o=7&cb=ucfimgc2rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" />
+          <div>John Baus</div>
+        </div>
       </div>
-    </div>
 
-    
-    <div className="flex flex-col items-center">
-      <img className="rounded-[200px] w-[300px] h-[300px]"
-        src="https://validthemes.net/site-template/restan/assets/img/team/2.jpg"/>
-      <div className="flex flex-col bg-yellow-800 h-[60px] w-[200px] items-center justify-center text-center text-[20px] font-bold text-white mt-1 ">Mendia Juxef
-        <div className="bg-yellow-800 h-[60px] w-[200px] flex items-center justify-center text-center text-[15px]  text-white  ">BURGER KING</div>
+      <div className="text-4xl font-bold text-gray-800 mb-3 ">
+        Picked up a Brussels burger Sprouts.
       </div>
-    </div>
 
-    
-    <div className="flex flex-col items-center">
-      <img className="rounded-[200px] w-[300px] h-[300px]"
-        src="https://wp.validthemes.net/restan/wp-content/uploads/2024/01/3-2.jpg"/>
-      <div className="flex flex-col bg-yellow-800 h-[60px] w-[200px] items-center justify-center text-center text-[20px] font-bold text-white mt-1 ">Petro William
-         <div className="bg-yellow-800 h-[60px] w-[200px] flex items-center justify-center text-center text-[15px]  text-white  ">MAIN CHEF</div>
+      <div className="text-gray-600 leading-relaxed mb-6 mt-4 text-[18px] ">
+        Bndulgence diminution so discovered mr apartments. Are off under folly death wrote cause her way spite.
+        Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing.
+        She sang know now.
+      </div>
+
+      <div className="bg-amber-700 text-white px-6 py-3   w-[150px] text-center rounded-full font-semibold hover:bg-amber-800 transition-all cursor-pointer">
+        Read More
       </div>
     </div>
   </div>
@@ -151,46 +125,92 @@ export default function Landingpage() {
 
 
 
- <div className="bg-gray-50 h-[750px] w-full flex flex-col items-center">
+<div className="flex justify-center mt-30">
+  <div className="max-w-6xl bg-white rounded-lg shadow-lg  shadow-gray-300 overflow-hidden">
+    <img
+      src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fblog%2F2-full.jpg&w=3840&q=75"
+      alt="Restaurant"
+      className="w-full h-[600px] object-cover"
+    />
 
-  
-  <div className="flex flex-row justify-center items-center mt-20 space-x-10">
+    <div className="p-8">
+      <div className="flex items-center text-gray-500 text-sm mb-4 space-x-4">
+        <div className="flex items-center space-x-2">
+          <img className="h-[40px] w-[40px] "
+              src="https://pcuct.org/assets/ql-skip-rev.png" />
+           13 August, 2024</div>
+          <div>
+        </div>
+        <div className="flex items-center space-x-2">
+          <img className="h-[40px] w-[40px] "
+              src="https://th.bing.com/th/id/OIP.3tFDXgeH6msOuZgixMMumQAAAA?o=7&cb=ucfimgc2rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" />
+          <div> Admin</div>
+        </div>
+      </div>
 
-    
-    <div className="w-[700px] h-[450px] overflow-hidden rounded-lg shadow-lg">
-      <iframe
-        className="w-full h-full"
-        src="https://www.youtube.com/embed/F3zw1Gvn4Mk" 
-        title="YouTube video"
-        
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-      ></iframe>
+      <div className="text-4xl font-bold text-gray-800 mb-3 ">
+       This prefabricated passive house highly
+      </div>
+
+      <div className="text-gray-600 leading-relaxed mb-6 mt-4 text-[18px] ">
+        Bndulgence diminution so discovered mr apartments. Are off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing. She sang know now
+      </div>
+
+      <div className="bg-amber-700 text-white px-6 py-3   w-[150px] text-center rounded-full font-semibold hover:bg-amber-800 transition-all cursor-pointer">
+        Read More
+      </div>
     </div>
+  </div>
+</div>
 
-    
-    <div className="w-[800px] h-[500px]  rounded-[20px] shadow-2xl shadow-gray-300 bg-white flex flex-col">
-      <div className="text-[40px] mt-10 ml-20 font-bold text-black">Opening Hours</div>
-      <div className="text-[20px] mt-10 ml-20 text-gray-600">
-        A relaxing and pleasant atmosphere, good jazz, dinner, and cocktails. <br />
-        The Patio Time Bar opens in the center..
+
+<div className="flex justify-center mt-30">
+  <div className="max-w-6xl bg-white rounded-lg shadow-lg  shadow-gray-300 overflow-hidden">
+    <img
+      src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fblog%2F3-full.jpg&w=3840&q=75"
+      alt="Restaurant"
+      className="w-full h-[600px] object-cover"
+    />
+
+    <div className="p-8">
+      <div className="flex items-center text-gray-500 text-sm mb-4 space-x-4">
+        <div className="flex items-center space-x-2">
+          <img className="h-[40px] w-[40px] "
+              src="https://pcuct.org/assets/ql-skip-rev.png" />
+           14 August, 2024</div>
+          <div>
+        </div>
+        <div className="flex items-center space-x-2">
+          <img className="h-[40px] w-[40px] "
+              src="https://th.bing.com/th/id/OIP.3tFDXgeH6msOuZgixMMumQAAAA?o=7&cb=ucfimgc2rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" />
+          <div>John Baus</div>
+        </div>
       </div>
 
-      <div className="text-[20px] font-bold mt-10 ml-20 leading-9">
-        Sunday to Tuesday — 10:00 - 09:00 <br />
-        Wednesday to Thursday — 11:30 - 10:30 <br />
-        Friday & Saturday — 10:30 - 12:00
+      <div className="text-4xl font-bold text-gray-800 mb-3 ">
+        Overcame breeding point concerns has.
       </div>
 
-      <div className="mt-10 ml-20 text-gray-600 text-[20px]">Call Anytime</div>
-      <div className="ml-20 text-[24px] font-bold text-black">+9647108476</div>
+      <div className="text-gray-600 leading-relaxed mb-6 mt-4 text-[18px] ">
+        Bndulgence diminution so discovered mr apartments. Are off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing. She sang know now
+
+
+      </div>
+
+      <div className="bg-amber-700 text-white px-6 py-3   w-[150px] text-center rounded-full font-semibold hover:bg-amber-800 transition-all cursor-pointer">
+        Read More
+      </div>
     </div>
   </div>
 </div>
 
 
 
-<div className=" bg-black h-[500px] w-[1400px] ml-40   flex flex-col ">
+
+
+
+     
+<div className=" bg-black h-[500px] w-[1400px] ml-40 mt-20  flex flex-col ">
 <div className="flex flex-row">
   <div className="flex flex-col">
 <div className="text-[35px] text-white mt-15 ml-20">About Us </div> 
