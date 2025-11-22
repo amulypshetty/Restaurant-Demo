@@ -2,35 +2,36 @@ export default function Landingpage() {
   return (
     <div>
 
-      <div className="min-h-screen  w-full items-center  flex flex-col">
+      <div className="md:min-h-screen  w-full items-center  flex flex-col">
 
         <div className="bg-amber-800 h-[60px] w-full flex flex-row  py-5 ">
           <div className="flex flex-row ">
-            <img className="h-[30px] w-[30px] ml-[130px] "
+            <img className="hidden md:block h-[30px] w-[30px] ml-[130px] "
               src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Ficon%2F6.png&w=128&q=75" />
-            <div className="  ml-[15px] text-[18px]  text-white ">
+            <div className="hidden md:block  ml-[15px] text-[18px]  text-white ">
               Phone:+4733378901
             </div>
-            <img className="h-[30px] w-[30px] ml-[50px] "
+            <img className="hidden md:block h-[30px] w-[30px] ml-[50px] "
               src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Ficon%2F7.png&w=128&q=75" />
-            <div className="  ml-[15px] text-[18px]  text-white ">
+            <div className=" hidden md:block  ml-[15px] text-[18px]  text-white ">
               Email:food@restan.com
             </div>
-            <img className="h-[30px] w-[30px] ml-[500px] "
+            <img className="hidden md:block h-[30px] w-[30px] ml-[500px] "
               src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Ficon%2Fflag.png&w=128&q=75" />
-            <div className="  ml-[15px] text-[18px]  text-white ">
+            <div className="hidden md:block  ml-[15px] text-[18px]  text-white ">
               English
             </div>
 
-            <div className="  ml-[150px] font-extrabold text-[18px]  text-white ">
+            <div className="hidden md:block  ml-[150px] font-extrabold text-[18px]  text-white ">
               F 
-            </div><div className="  ml-[40px] font-extrabold text-[18px]  text-white ">
+            </div>
+            <div className="hidden md:block  ml-[40px] font-extrabold text-[18px]  text-white ">
               T
             </div>
-            <div className="  ml-[40px] font-extrabold text-[18px]  text-white ">
+            <div className="hidden md:block  ml-[40px] font-extrabold text-[18px]  text-white ">
               Y      
             </div>
-            <div className="  ml-[40px] font-extrabold text-[18px]  text-white ">
+            <div className="hidden md:block  ml-[40px] font-extrabold text-[18px]  text-white ">
               L
             </div>
             
@@ -58,9 +59,9 @@ export default function Landingpage() {
             <div className="hidden md:block  underline underline-offset-4 mr-[50px] mt-2.5 text-[18px] text-white font-bold">
               Shop
             </div>
-            <img className="h-[60px] w-[60px] ml-[200px] "
+            <img className="hidden md:block h-[60px] w-[60px] ml-[200px] "
               src="https://d3omj40jjfp5tk.cloudfront.net/media_gallery/merchant/5b4e57bc6ac8a1255eb03764/image/6224f843afa45e1f08d8db2a.png?1646590019" />
-              <div className=" text-[20px] text-white mt-1 ml-10">
+              <div className="hidden md:block text-[20px] text-white mt-1 ml-10">
               Reservation
             </div>
 
@@ -210,8 +211,8 @@ export default function Landingpage() {
 
 
      
-<div className=" bg-black h-[500px] w-[1400px] ml-40 mt-20  flex flex-col ">
-<div className="flex flex-row">
+<div className=" bg-black md:h-[400px] md:w-[1400px] md:ml-40  mt-10 flex flex-col ">
+<div className="md:flex flex-row">
   <div className="flex flex-col">
 <div className="text-[35px] text-white mt-15 ml-20">About Us </div> 
 <div className="text-[20px] text-white mt-18 ml-20">Continued at zealously<br/> necessary is Surrounded sir <br/>motionless she end literature.<br/> Gay direction neglected.</div>
@@ -262,7 +263,7 @@ export default function Landingpage() {
 
 </div>
 </div>
-<div className=" bg-gray-950 h-[300px] w-[2000px] flex flex-col ">
+<div className="hidden md:block bg-gray-950 h-[300px] w-[2000px] flex flex-col ">
   <div className="flex flex-row">
 <img className="h-[200px] w-[150px] mt-20"
               src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fshape%2F9.png&w=1920&q=75" />
