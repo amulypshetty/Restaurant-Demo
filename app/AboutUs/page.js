@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import Chef from "../components/Chef";
 import Openhrs from "../components/Openhrs";
 import Footer from "../components/footer";
+import Link from "next/link";
 export default function Landingpage() {
   return (
     <div>
@@ -51,19 +52,20 @@ export default function Landingpage() {
 
           <div className="items-center flex flex-row ml-[300px]">
             <div className="hidden md:block underline underline-offset-4 mr-[50px] mt-2 text-[18px]  text-white font-bold">
-              Home
+              <Link href="/page.js" className="hidden md:block hover:text-yellow-400 cursor-pointer">Home</Link>
             </div>
             <div className="hidden md:block  underline underline-offset-4 mr-[50px] mt-2.5 text-[18px] text-white font-bold">
-              Pages
+              <Link href="/menu" className="hidden md:block hover:text-yellow-400 cursor-pointer">Pages</Link>
             </div>
             <div className="hidden md:block  underline underline-offset-4 mr-[50px] mt-2.5 text-[18px] text-white font-bold">
-              Menu
+              <Link href="/menu" className="hidden md:block hover:text-yellow-400 cursor-pointer">Menu</Link>
             </div>
             <div className="hidden md:block  underline underline-offset-4 mr-[50px] mt-2.5 text-[18px] text-white font-bold">
-              Blog
+              <Link href="/blog" className= "hidden md:block hover:text-yellow-400 cursor-pointer">Blog</Link>
             </div>
+            
             <div className="hidden md:block  underline underline-offset-4 mr-[50px] mt-2.5 text-[18px] text-white font-bold">
-              Shop
+              <Link href="/AboutUs" className="hover:text-yellow-400 hidden md:block cursor-pointer">Shop</Link>
             </div>
             
             <img className="hidden md:block h-[60px] w-[60px] ml-[150px] "
@@ -89,6 +91,7 @@ export default function Landingpage() {
         </div>
       </div>
 
+      
 
      <div className="bg-gray-200 w-full py-16 flex flex-col items-center">
   

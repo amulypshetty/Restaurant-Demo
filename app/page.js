@@ -75,9 +75,9 @@ export default function Home() {
 
         {/* Right Menu */}
         <div className="flex items-center gap-10 text-lg mr-0 md:mr-30 lg:mr-16 xl:mr-20">
-          <Link href="/Blog" className= "hidden md:block hover:text-yellow-400 cursor-pointer">Blog</Link>
-          <Link href="/About" className="hover:text-yellow-400 hidden md:block cursor-pointer">Shop</Link>
-          <Link href="/About" className="hover:text-yellow-400 hidden md:block cursor-pointer">About Us</Link>
+          <Link href="/blog" className= "hidden md:block hover:text-yellow-400 cursor-pointer">Blog</Link>
+          <Link href="/AboutUs" className="hover:text-yellow-400 hidden md:block cursor-pointer">Shop</Link>
+          <Link href="/AboutUs" className="hover:text-yellow-400 hidden md:block cursor-pointer">About Us</Link>
         </div>
         <button
               className="md:hidden p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-500"

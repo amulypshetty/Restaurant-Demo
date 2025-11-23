@@ -42,7 +42,7 @@ export default function BlogSection() {
     <div className="w-full bg-white px-5 py-20 flex flex-col items-center">
 
       
-      {/* Blog Cards */}
+      
       <div className="flex flex-col gap-20 mt-14">
         {blogs.map((blog, i) => (
           <BlogCard key={i} {...blog} />
@@ -57,7 +57,7 @@ function BlogCard({ img, date, author, authorImg, title, desc }) {
     <div className="flex justify-center">
       <div className="max-w-6xl bg-white rounded-lg shadow-lg shadow-gray-300 overflow-hidden">
 
-        {/* Image */}
+        
         <img
           src={img}
           alt={title}
@@ -66,33 +66,33 @@ function BlogCard({ img, date, author, authorImg, title, desc }) {
 
         <div className="p-8">
 
-          {/* Date & Author */}
+          
           <div className="flex items-center text-gray-500 text-sm mb-4 space-x-6">
             <div className="flex items-center space-x-2">
               <img
-                className="h-[40px] w-[40px]"
+                className="h-[50px] w-[50px]"
                 src="https://pcuct.org/assets/ql-skip-rev.png"
               />
               {date}
             </div>
 
             <div className="flex items-center space-x-2">
-              <img className="h-[40px] w-[40px]" src={authorImg} />
+              <img className="h-[50px] w-[50px]" src={authorImg} />
               <div>{author}</div>
             </div>
           </div>
 
-          {/* Title */}
+          
           <div className="text-4xl font-bold text-gray-800 mb-3">
             {title}
           </div>
 
-          {/* Description */}
+          
           <div className="text-gray-600 leading-relaxed text-[18px] mb-6">
             {desc}
           </div>
 
-          {/* Button */}
+          
           <div className="bg-amber-700 text-white px-6 py-3 w-[150px] text-center rounded-full font-semibold hover:bg-amber-800 transition-all cursor-pointer">
             Read More
           </div>
