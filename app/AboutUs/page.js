@@ -7,9 +7,9 @@ import Footer from "../components/footer";
 import Link from "next/link";
 export default function Landingpage() {
   return (
-    <div>
+    <div className="md:min-h-screen overflow-x-hidden w-full">
 
-      <div className="md:min-h-screen  w-full items-center  flex flex-col">
+      <div className="md:min-h-screen overflow-x-hidden w-full items-center  flex flex-col">
 
         <div className="bg-amber-800 h-[60px] w-full flex flex-row  py-5 ">
           <div className="flex flex-row ">
